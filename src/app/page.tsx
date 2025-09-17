@@ -34,7 +34,7 @@ export default function Home() {
         style={{ width: '80%', padding: '8px' }}
       />
       <button onClick={sendMessage} style={{ padding: '8px 16px' }}>
-        Envoyer
+        EnvoyerTY
       </button>
     </div>
   );
