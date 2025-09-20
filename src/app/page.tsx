@@ -22,9 +22,7 @@ export default function Home() {
     <div style={{ maxWidth: 600, margin: 'auto', padding: 20 }}>
       <h1>Mini Chat Next.js</h1>
       <div style={{ border: '1px solid #ccc', padding: 10, minHeight: 200 }}>
-        {messages.map((msg, idx) => (
-          <div key={idx} style={{ margin: '5px 0' }}>{msg}</div>
-        ))}
+        
       </div>
       <input
         value={input}
